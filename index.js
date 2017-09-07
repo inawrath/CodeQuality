@@ -1,6 +1,6 @@
 'use strict';
 
-const Login = require('./class/Login.js'),
+const Login = require('./class/LoginOptimized'),
     registeredUsers = {
         user1: 'pass1',
         user2: 'pass2',
@@ -15,3 +15,4 @@ login.updatePassword('user3', 'pass3', 'pass5');
 login.login('user3', 'pass5');
 login.logout('user4');
 login.logout('user3');
+console.log('@login', login);
