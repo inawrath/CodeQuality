@@ -30,6 +30,7 @@ Se solicita una optimización de codigo para una class de Login, la cual present
 # Instalación
 La versión de NodeJS utilizada es la `v6.11.2`
 Para inicializar el proyecto se deben instalar los modulos con NPM o mediante Yarn
+
 **NPM**
 ```sh
 npm i
@@ -44,7 +45,7 @@ yarn
 Para correr el proyecto se puede utilizar el comando `node index.js` para una prueba sencilla del nuevo codigo, el cual esta en la carpeta `class` en el archivo `LoginOptimized.js`
 
 
-#Benchmark
+# Benchmark
 Para comprobar el benchmark se debe utilizar
 ```sh
 node benchmark.js
